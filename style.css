@@ -1,0 +1,58 @@
+#scratch {
+    background-image: url("images/scratch.png");
+}
+#duck {
+    background-image: url("images/duck.png");
+}
+#ball {
+    background-image: url("images/ball.png");
+}
+#cookie {
+    background-image: url("images/cookie.png");
+}
+#bulb {
+    background-image: url("images/bulb.png");
+}
+#oscar {
+    background-image: url("images/oscar.png");
+}
+#david {
+    background-image: url("images/david.png");
+}
+.cs50-custom-cursor-img {
+    width: 30px;
+    height: 35px;
+    background-position: 9px 10px;
+    background-repeat: no-repeat;
+}
+#cs50-custom-cursor tr:not(:last-child) td {
+    cursor: default;
+    border-bottom: 2px solid black; 
+}
+#cs50-custom-cursor tr:last-child td {
+    padding-top: 10px;
+}
+#cs50-custom-cursor tr td:nth-child(1) {
+    text-align: center;
+}
+#cs50-custom-cursor tbody tr[data-item="scratch"]:hover td {
+    background-color: #DC7726;
+}
+#cs50-custom-cursor tbody tr[data-item="duck"]:hover td {
+    background-color: #FFCD58;
+}
+#cs50-custom-cursor tbody tr[data-item="ball"]:hover td {
+    background-color: #c32f27;
+}
+#cs50-custom-cursor tbody tr[data-item="cookie"]:hover td {
+    background-color: #DC9750;
+}
+#cs50-custom-cursor tbody tr[data-item="bulb"]:hover td {
+    background-color: #6a7780;
+}
+#cs50-custom-cursor tbody tr[data-item="oscar"]:hover td {
+    background-color: #57896A;
+}
+#cs50-custom-cursor tbody tr[data-item="david"]:hover td {
+    background-color: #CFCFC4;
+}
